@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans:wght@400;500&display=swap');
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: white;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+
+.card-shadow {
+  box-shadow: 5px 4px 10px #a39e9e75;
+}
+
+.card-white p {
+  margin: 40px auto;
+  padding: 0px 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  background-color: #e6e3ef;
+  color: #575F7D;
+  line-height: 14.2px;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.btn-blue {
+  display: block;
+  width: 154px;
+  margin: auto;
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  background-color: #a198befc;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.btn-blue:hover {
+  background-color: black;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 30px;
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 500px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .card-white {
+    width: 400px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .card-white {
+    width: 300px;
+    margin: 30px auto;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  body {
+    font-size: 0.9em;
+  }
+
+}
